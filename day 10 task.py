@@ -34,7 +34,7 @@ class Bank(User):
         print("available balance : ", self.balance)
 
 
-s=Bank("Bhuvanesh waran",20,"Male")
+s=Bank("Kalai",20,"Male")
 s.view_balance()
 s.Deposit()
 s.withdrawal()
